@@ -1,0 +1,29 @@
+{
+  "name": "inversifytest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coderepo101/inversifytest.git"
+  },
+  "author": "Coderepo101",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/coderepo101/inversifytest/issues"
+  },
+  "homepage": "https://github.com/coderepo101/inversifytest#readme",
+  "dependencies": {
+    "inversify": "^4.13.0",
+    "reflect-metadata": "^0.1.12",
+    "typescript": "^2.8.3"
+  },
+  "devDependencies": {
+    "@types/jest": "^22.2.3",
+    "jest": "^22.4.3",
+    "ts-jest": "^22.4.4"
+  }
+}
