@@ -9,7 +9,7 @@ export class Consumer{
         this.myservice = testService;
     }
 
-    public PrintPerson(){
+    public PrintPerson():void{
         this.myservice.CreatePerson("CodeRepo",25);
     }
 }

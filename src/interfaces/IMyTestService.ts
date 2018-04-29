@@ -1,3 +1,3 @@
 export interface IMyTestService{
-    CreatePerson(name:string,age:number):void;
+    CreatePerson:(name:string,age:number)=>void;
 }
